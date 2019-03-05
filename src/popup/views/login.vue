@@ -1,6 +1,6 @@
 <template>
 <div class="login-cont">这里是登录页
-  <a href="javascript:;" @click="backToIndex" class="back">点此返回</a>
+  <div @click="backToIndex" class="back">点此返回</div>
 </div>
 </template>
 
@@ -25,4 +25,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  .back{
+    cursor: pointer;
+    color: #42B983;
+  }
 </style>

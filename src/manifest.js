@@ -39,6 +39,6 @@ module.exports = {
       all_frames: false
     }
   ],
-  content_security_policy: "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  content_security_policy: "script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'self'",
   web_accessible_resources: ['js/content.js']
 }
